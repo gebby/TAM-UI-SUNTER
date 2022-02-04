@@ -13,10 +13,11 @@ namespace CLARK_INFINITI_UI___TAM_SUNTER_AGV
         /// </summary>
         [STAThread]
         [Obsolete]
-        static void Main()
+        public static void Main()
         {
             try
             {
+                Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Form1());

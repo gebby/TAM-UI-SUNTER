@@ -28,8 +28,8 @@ namespace CLARK_INFINITI_UI___TAM_SUNTER_AGV
         public List<AGVErrorModel> AGVError = new List<AGVErrorModel>();
         //public string url = "http://192.168.70.220:8000/req";
         //public string url = "http://172.16.100.15:8000/req";
-        //public string url = "http://192.168.10.100:8000/req";
-        public string url = "http://172.16.101.203:8000/req";
+        public string url = "http://192.168.10.100:8000/req";
+        //public string url = "http://172.16.101.203:8000/req";
         public bool writeFlag = false, rt2 = false, endFlag = false;
         public int xAgv, yAgv, interval = 5, cntStop = 0, cntStop4 = 0, counterLog, cntMove = 0, cntCall1 = 0, cntCall2 = 0;
         public int testButton = 0, agvAddress = 1, waitingTime = 0, collectData = 0;
