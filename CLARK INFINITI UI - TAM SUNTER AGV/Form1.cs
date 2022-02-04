@@ -88,8 +88,8 @@ namespace CLARK_INFINITI_UI___TAM_SUNTER_AGV
 
         }
         public long jobId, readPower, cntTimer = 0, missionId1 = 0, missionId2 = 0, jobNumber = 0;
-        //public string[] arrayStation = new string[] { "LINE_1", "LINE_2", "LINE_3", "LINE_4", "LINE_5", "LINE_6", "LINE_7" };
-        public string[] arrayStation = new string[] { "'SMD_01'", "'SMD_02'", "SMD_03", "SMD_04", "SMD_05", "SMD_06", "SMD_07" };
+        public string[] arrayStation = new string[] { "'LINE_1'", "'LINE_2'", "'LINE_3'", "'LINE_4'", "'LINE_5'", "'LINE_6'", "'LINE_7'" };
+        //public string[] arrayStation = new string[] { "'SMD_01'", "'SMD_02'", "SMD_03", "SMD_04", "SMD_05", "SMD_06", "SMD_07" };
         public int[] arrayCall = new int[] {0,0,0,0,0,0,0};
         private void timer1_Tick(object sender, EventArgs e)
         {
